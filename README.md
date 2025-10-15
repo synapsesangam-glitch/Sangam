@@ -1,13 +1,17 @@
-# Sangam Synapse – AI Innovation Sprint Starter Code (V2)
+# Sangam Synapse – AI Innovation Sprint Starter Code 
 
 Welcome, innovators! This repository contains an expanded set of starter code for the Sangam Synapse event. Your objective is to enhance, optimize, integrate, and expand these AI programs within the given timeframe.
 
-This version includes:
-- **Two Chatbots**: `mixtral_chat.py` and `gemini_chat.py`.
-- **Live Transcription**: `live_speech_to_text.py` captures audio from your microphone.
-- **High-Quality TTS**: `text_to_speech_deepgram.py` uses Deepgram's Aura for voice synthesis.
-- **Wake Word Detection**: `wake_word_detector.py` listens for a keyword like "Hey Google".
+## 🧰 Your AI Toolkit
 
+You have a variety of Python scripts to build with. Explore what each one does:
+
+* **`gemini_chatbot.py`**: A very creative chatbot that can write, summarize, and answer questions.
+* **`mixtral_chat.py`**: Another excellent chatbot for conversations and information.
+* **`image_classifier.py`**: A tool that can look at an image and identify what it is (e.g., "a temple," "a mango tree").
+* **`object_detector.py`**: A tool that can find and count specific objects in a picture (e.g., find all the buses in a street photo).
+* **`text_summarizer.py`**: A tool that can read a long article and write a short summary.
+* **`data_analyzer.py`**: A script that reads data from a CSV file, performs calculations, and creates a visual chart.
 ---
 
 ## 📜 Competition Rules & Guidelines
@@ -33,21 +37,12 @@ Please read all rules carefully. Failure to comply may lead to disqualification.
 * **Content**: Your presentation should clearly explain the improvements you made, showcase the new functionality with a live demonstration, and highlight the most creative or innovative aspects of your approach.
 
 ---
+ 
+## 🚀 Setup & Getting Started
+ 
+Follow these steps to run the project:
+1.  Install all required libraries by running `pip install -r requirements.txt` in the terminal.
+2.  Create a `.env` file and add your API keys for Gemini and Mixtral.
+3.  Add a `sample_image.jpg` and a `sample_data.csv` to the folder to test the scripts.
 
-## 🚀 Getting Started
-
-Follow these steps to set up your project environment.
-
-### 1. Install Dependencies
-This project has dependencies that may require extra steps.
-
-**a. Install PortAudio**
-The `pyaudio` library (for microphone access) needs `portaudio`.
-- **Windows**: `pyaudio` often comes with the necessary files.
-- **macOS**: Use Homebrew: `brew install portaudio`
-- **Linux (Debian/Ubuntu)**: `sudo apt-get install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0`
-
-**b. Install Python Libraries**
-Open your terminal in this project folder and run:
-```bash
-pip install -r requirements.txt"# Sangam-Synapse" 
+**Good luck, and build something amazing!**

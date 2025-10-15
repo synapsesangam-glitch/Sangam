@@ -1,0 +1,15 @@
+ To install all dependencies, run: pip install -r requirements.txt
+
+# For calling Mixtral's REST API
+requests
+
+# For Google's Gemini API
+google-generativeai
+
+# For managing API keys from a .env file
+python-dotenv
+
+# For Image Processing with Hugging Face Transformers
+transformers
+torch
+Pillow
