@@ -12,6 +12,7 @@ You have a variety of Python scripts to build upon. Explore what each one does:
 * **`mixtral_chat.py`**: Another powerful conversational chatbot that uses a Mixtral model for dialogue.
 * **`image_classifier.py`**: A tool that uses the Gemini Vision model to look at an image (`sample_image.jpg`) and describe what it sees.
 * **`text_summarize.py`**: A script that can take a long piece of text and use Gemini to generate a concise summary.
+* **`text_to_speech.py`**: A real-time text-to-speech engine that streams audio directly from the Deepgram API.
 * **`data_analyser.py`**: A script that reads data from a CSV file (`sample_data.csv`), performs a basic statistical analysis, and creates a visual bar chart from the data.
 * **`information_finder.py`**: A utility that connects to the Wikipedia API to fetch and display a summary of any topic you search for.
 * **`web_search.py`**: An interface to the Groq API, giving you access to fast, web-indexed information and search capabilities.
@@ -60,6 +61,9 @@ Follow these steps to get your project running:
 
     # For web_search.py
     GROQ_API_KEY="YOUR_GROQ_API_KEY_HERE"
+    
+    # For text_to_speech.py
+    DEEPGRAM_API_KEY="YOUR_DEEPGRAM_API_KEY"
     ```
 3.  **Add Sample Files**: Make sure you have the `sample_image.jpg` and `sample_data.csv` files in the same folder so you can test the `image_classifier.py` and `data_analyser.py` scripts.
 

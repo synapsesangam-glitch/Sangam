@@ -2,6 +2,7 @@
 google-generativeai
 requests
 groq
+
 # For Image Processing and NLP with Hugging Face Transformers
 transformers
 torch
@@ -11,5 +12,10 @@ Pillow
 pandas
 matplotlib
 Wikipedia-API
+
 # For managing API keys
 python-dotenv
+
+# For Text-to-Speech
+pyaudio
+websockets
